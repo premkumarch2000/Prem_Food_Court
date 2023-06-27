@@ -1,11 +1,12 @@
 export const ADD = (item) => {
+    debugger;
     return {
         type: "ADD_CART",
         payload: item
     }
 }
 
-// remove iteams
+// remove items
 export const DLT = (id) => {
     return {
         type: "RMV_CART",
@@ -13,7 +14,7 @@ export const DLT = (id) => {
     }
 }
 
-// remove individual iteam
+// remove individual item
 
 export const REMOVE = (iteam) => {
     return {

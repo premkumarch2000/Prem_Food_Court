@@ -4,6 +4,7 @@ const INIT_STATE = {
 
 
 export const cartreducer = (state = INIT_STATE, action) => {
+    debugger;
     switch (action.type) {
         case "ADD_CART":
 

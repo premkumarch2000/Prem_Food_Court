@@ -6,7 +6,7 @@ import { DLT,ADD,REMOVE } from '../redux/actions/action'
 
 
 const CardsDetails = () => {
-
+debugger;
   const [data,setData] = useState([]);
   // console.log(data);
 
@@ -44,11 +44,14 @@ const CardsDetails = () => {
 
 // remove one
 const remove = (item)=>{
+  debugger;
   dispatch(REMOVE(item))
+
 }
 
 
   useEffect(()=>{
+    debugger;
     compare();
   },[id])
 
@@ -61,6 +64,7 @@ const remove = (item)=>{
         <section className='container mt-3'>
           <div className="iteamsdetails">
           {
+            
             data.map((ele)=>{
               return (
                 <>
